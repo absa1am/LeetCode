@@ -12,13 +12,14 @@ public class IsSubsequenceSolution
                 if(s[i] == t[k])
                 {
                     found = true;
-                    k++;
                     break;
                 }
+                
                 k++;
             }
 
             if(!found) return false;
+            else k++;
         }
         
         return (i == s.Length && k <= t.Length);
