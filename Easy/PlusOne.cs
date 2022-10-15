@@ -26,7 +26,7 @@ public class PlusOneSolution
             newDigits[0] = r;
             digits.CopyTo(newDigits, 1);
 
-            return newDigits;
+            digits = newDigits;
         }
 
         return digits;
