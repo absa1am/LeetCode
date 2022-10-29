@@ -8,16 +8,11 @@ public class ReverseVowelsOfAStringSolution
         {
             if(IsVowel(str[i]))
             {
-                while(j > i)
-                {
-                    if(IsVowel(str[j])) break;
-                    j--;
-                }
+                while(j > i && !IsVowel(str[j])) j--;
 
                 char c = str[i];
                 str[i] = str[j];
-                str[j] = c;
-                j--;
+                str[j--] = c;
             }
         }
 
