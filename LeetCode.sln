@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy", "Easy\Easy.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingSkills-I", "ProgrammingSkills-I\ProgrammingSkills-I.csproj", "{6075D8D2-F520-4DD4-AB8A-0629B107B2F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medium", "Medium\Medium.csproj", "{5527BC79-DBAD-4C31-A36F-890C05288C04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6075D8D2-F520-4DD4-AB8A-0629B107B2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6075D8D2-F520-4DD4-AB8A-0629B107B2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6075D8D2-F520-4DD4-AB8A-0629B107B2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5527BC79-DBAD-4C31-A36F-890C05288C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5527BC79-DBAD-4C31-A36F-890C05288C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5527BC79-DBAD-4C31-A36F-890C05288C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5527BC79-DBAD-4C31-A36F-890C05288C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
