@@ -2,8 +2,18 @@ public class MaximumProductOfTwoElementsInAnArraySolution
 {
     public int MaxProduct(int[] nums)
     {
-        Array.Sort(nums, new Comparison<int>((a, b) => b.CompareTo(a)));
+        int m = 0, n = 0;
 
-        return (nums[0] - 1) * (nums[1] - 1);
+        for(int i = 0; i < nums.Length; i++)
+        {
+            if(n < nums[i])
+            {
+                m = n;
+                n = nums[i];
+            }
+            else if(m < nums[i]) m = nums[i];
+        }
+
+        return (m - 1) * (n - 1);
     }
 }
